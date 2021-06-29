@@ -1,0 +1,74 @@
+.hero {
+    padding: 74px 16px 88px 16px;
+
+
+    &__image {
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+
+    }
+
+    &__image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__header {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+        color: $text-dark;
+    }
+
+
+    &__hello {
+        display: none;
+    }
+
+    &__special {
+        color: $text-blue;
+    }
+
+    &__link {
+        color: $text-link;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    &__description {
+        text-align: center;
+        font-size: 16px;
+        line-height: 32px;
+        color: $text-default;
+
+
+    }
+
+    &__paragraph {
+        margin-bottom: 48px;
+    }
+
+    &__contact {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 40px;
+        border-radius: 64px;
+        color: #fff;
+        background-color: $text-link;
+        text-decoration: none;
+        display: block;
+        padding: 4px 24px;
+        max-width: 278px;
+        margin: 0 auto;
+
+
+
+
+
+    }
+
+
+
+}
